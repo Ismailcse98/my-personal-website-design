@@ -1,0 +1,405 @@
+@media only screen and (max-width:1199px) {
+    .manu-section .navbar-default .navbar-nav>li>a {
+        font-size: 16px;
+    }
+    .manu-section .navbar-brand {
+        font-size: 16px;
+    }
+    .about-content .about-description h2 {
+        font-size: 26px;
+    }
+    .about-content .about-contact p span {
+        margin-left: 0px;
+    }
+    .about-content .about-contact p {
+        font-size: 14px;
+    }
+    .about-content .about-contact p i {
+        font-size: 16px;
+    }
+    .about-content .my-cv {
+        margin-top: 20px;
+    }
+    .counter-up-content h2 {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:995px){
+    #particles-js{
+        height: 1170px;
+    }
+    .skill-content ul li:first-child{
+        margin-top: 35px;
+    }
+}
+@media only screen and (max-width:991px){
+    .manu-section .navbar-brand {
+        font-size: 14px;
+    }
+    .manu-section .navbar-default .navbar-nav>li>a {
+        font-size: 14px;
+    }
+    .navbar-nav>li>a {
+        line-height: 30px;
+    }
+    .nav>li>a {
+        padding: 10px 8px;
+    }
+    .banner-content h2 {
+        font-size: 44px;
+    }
+    .banner-content h3 {
+        font-size: 34px;
+    }
+    .banner-content .animated .ah-headline span{
+        font-size: 25px;
+    }
+    .about-content .about-img img {
+        margin-top: 25px;
+    }
+    .about-content .about-contact p {
+        text-align: center;
+    }
+    .about-content .about-description h2 {
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    .about-content .about-contact p span {
+        margin-left: 10px;
+    }
+    .about-content .my-cv a {
+        display: block;
+        text-align: center;
+    }
+    .about-content .my-cv a:hover:before{
+        height: 1000%;
+    }
+    .portfoli-section .work-nav ul li{
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+    .counter-section .counter-desc h2 {
+        font-size: 35px;
+    }
+    .counter-section .counter-desc p {
+        font-size: 18px;
+    }
+    .google-map {
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width:871px){
+    .top-content .top-left h2 {
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width:768px){
+    .banner-content h2 {
+        font-size: 30px;
+    }
+    .banner-content h3 {
+        font-size: 25px;
+    }
+    .banner-content .animated .ah-headline span{
+        font-size: 20px;
+    }
+    .skill-content {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .services-box {
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+    .counter-up-content {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .contact-form {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .google-map {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+}
+@media only screen and (max-width:767px){
+    /* navbar-toggle */
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #F25421;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .manu-section .navbar-brand {
+        font-size: 20px;
+    }
+    .nav>li {
+        text-align: center;
+    }
+    .manu-section .navbar-default .navbar-nav>li>a {
+        font-size: 20px;
+    }
+    .about-content .my-cv {
+        margin-left: 0;
+    }
+    .services-box {
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-top: 80px;
+    }
+    .portfolio-item {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+}
+@media only screen and (max-width:742px){
+    .portfoli-section .work-nav ul li {
+        padding: 10px 5px;
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:613px){
+    .top-content .top-left h2 {
+        margin-left: 33px;
+    }
+    .counter-section .counter-desc h2 {
+        font-size: 28px;
+    }
+    .counter-section .counter-desc p {
+        font-size: 14px;
+    }
+    .portfoli-section .work-nav ul li {
+        padding: 10px 3px;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:613px){
+    .top-content .top-left h2 {
+        font-size: 10px;
+    }
+    .top-content .top-right a {
+        font-size: 10px;
+    }
+    .about-content .about-description h2 {
+        font-size: 24px;
+    }
+    .top-section .top-style:after {
+        border-bottom: 17px solid #F25421;
+    }
+}
+@media only screen and (max-width:530px){
+    .top-content .top-left h2 {
+        padding-top: 8px;
+    }
+    .banner-content h2 {
+        font-size: 28px;
+    }
+    .banner-content h3 {
+        font-size: 22px;
+    }
+    .banner-content .animated .ah-headline span{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:414px){
+    .heading-style h2 {
+        font-size: 25px;
+    }
+    .top-content .top-left {
+        float: none;
+        text-align: center;
+        display: block;
+    }
+    .top-content .top-left h2 {
+        padding-top: 10px;
+        font-size: 13px;
+    }
+    .top-content .top-right {
+        float: none;
+        text-align: center;
+        font-size: 20px;
+    }
+    .banner-content ul li a {
+        height: 40px;
+        width: 40px;
+        padding-top: 6px;
+    }
+    .about-content .about-description h2 {
+        font-size: 18px;
+    }
+    .about-content .about-description p {
+        font-size: 14px;
+    }
+    .about-content .about-contact p {
+        font-size: 14px;
+    }
+    .about-content .my-cv a {
+        font-size: 14px;
+    }
+    .skill-content ul li h2 {
+        font-size: 14px;
+    }
+    .services-box .services-icon i {
+        font-size: 25px;
+    }
+    .services-box h2 {
+        font-size: 20px;
+    }
+    .services-box p {
+        font-size: 14px;
+    }
+    .counter-section .counter-desc h2 {
+        font-size: 25px;
+    }
+    .counter-up-content span {
+        font-size: 35px;
+    }
+    .counter-up-content h2 {
+        font-size: 20px;
+    }
+    .portfoli-section .work-nav ul {
+        display: grid;
+    }
+    .portfoli-section .work-nav ul li {
+        font-size: 15px;
+    }
+    .contact-form h2 {
+        font-size: 25px;
+    }
+    .contact-form h3 {
+        font-size: 20px;
+    }
+    .footer-content h2 {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:375px){
+    .top-content .top-right {
+        margin-top: -18px;
+    }
+    .manu-section .navbar-brand {
+        font-size: 16px;
+    }
+    .manu-section .navbar-default .navbar-nav>li>a {
+        font-size: 16px;
+    }
+    .manu-section .navbar-default .navbar-nav>li>a {
+        font-size: 16px;
+    }
+    .banner-content h2 {
+        font-size: 20px;
+    }
+    .banner-content h3 {
+        font-size: 20px;
+    }
+    .banner-content .animated .ah-headline span{
+        font-size: 16px;
+    }
+    .services-box .services-icon {
+        width: 60px;
+        height: 60px;
+        margin-top: 21px;
+    }
+    .services-box .services-icon i {
+        line-height: 56px;
+    }
+    .counter-up-content span {
+        font-size: 24px;
+    }
+    .counter-up-content h2 {
+        font-size: 16px;
+    }
+    .portfoli-section .work-nav ul {
+        display: grid;
+    }
+    .portfoli-section .work-nav ul li {
+        font-size: 15px;
+    }
+    .carousel-slide .carousel-item .single-testmonial .text-area h3 {
+        font-size: 24px;
+    }
+    .carousel-slide .carousel-item .single-testmonial .text-area h3 span {
+        font-size: 18px;
+    }
+    .carousel-slide .carousel-item .single-testmonial .text-area p {
+        font-size: 14px;
+    }
+    input[type=submit] {
+        font-size: 20px;
+    }  
+    
+}
+@media only screen and (max-width:374px){
+    .top-content .top-left h2 {
+        padding-top: 10px;
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+}
+@media only screen and (max-width:360px){
+    .top-content .top-left h2 {
+        font-size: 12px;
+    }
+    .top-content .top-right {
+        margin-top: -15px;
+    }
+    .portfoli-section .work-nav ul {
+        display: grid;
+    }
+    .portfoli-section .work-nav ul li {
+        font-size: 15px;
+    }
+    .footer-content h2 {
+        font-size: 8px;
+    }
+    .totop i {
+        height: 25px;
+        width: 25px;
+        line-height: 22px;
+    }
+}
+@media only screen and (max-width:355px){
+    .top-content .top-left h2 {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:320px){
+    .heading-style h2 {
+        font-size: 20px;
+    }
+    .top-content .top-left h2 {
+        font-size: 10px;
+    }
+    .banner-content ul li a {
+        margin-top: 10px;
+    }
+    .services-box h2 {
+        font-size: 16px;
+    }
+    .counter-section .counter-desc h2 {
+        font-size: 20px;
+    }
+    .portfoli-section .work-nav ul {
+        display: grid;
+    }
+    .portfoli-section .work-nav ul li {
+        font-size: 15px;
+    }
+    .contact-form h2 {
+        font-size: 20px;
+    }
+    .contact-form h3 {
+        font-size: 14px;
+    }
+    .form-control {
+        padding-bottom: 0px; 
+        padding-top: 0px; 
+        font-size: 14px;
+    }
+}
+

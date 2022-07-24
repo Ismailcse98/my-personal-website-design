@@ -1,0 +1,889 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 18px;
+    position: relative;
+}
+h1, h2, h3, h4, h5, h6,p{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+/* ====================================================
+COMMON CSS
+==================================================== 
+*/
+.heading-style{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.heading-style h2{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 25px;
+    color: #FF5722;
+    font-size: 35px;
+    font-weight: 700;
+}
+.heading-style h2 .circle1,
+.heading-style h2 .circle2,
+.heading-style h2 .circle3{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    bottom: 0;
+    left: 50%;
+    -moz-transform: translateX(-50%) rotate(45deg);
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    -o-transform: translateX(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+    background: #231F14;
+}
+.heading-style h2 .circle2{
+    left: calc(50% - 20px);
+}
+.heading-style h2 .circle3{
+    left: calc(50% + 20px);
+}
+.heading-style  h2::after,
+.heading-style  h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    right: calc(50% + 36px);
+    height: 2px;
+    background: #231F14;
+}
+.heading-style  h2::after{
+    left: calc(50% + 36px);
+    right: 0;
+}
+/* ====================================================
+HEADER SECTION CSS
+==================================================== 
+*/
+/* header-top */
+.top-section{
+    background: #DDDDDD;
+    color: #999;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+}
+.top-section .top-style{
+    position: absolute;
+    top: 0;
+    right: 92%;
+    left: 0;
+    bottom: 0;
+    background: #F25421;
+}
+.top-section .top-style:after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    border-top: 20px solid #F25421;
+    border-right: 20px solid #DDDDDD;
+    border-bottom: 20px solid #F25421;
+}
+.top-content .top-left{
+    float: left;
+}
+.top-content .top-left h2{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 7px;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    transition: .3s;
+    font-weight: 700;
+    color: #F25421;
+    margin-left: 70px;
+}
+.top-content .top-right{
+    float: right;
+}
+.top-content .top-right a{
+    display: inline-block;
+    padding: 5px;
+    color: #999;
+    font-size: 15px;
+}
+.top-content .top-right a:last-child{
+    padding-right: 0px;
+}
+.top-content .top-right a i{
+    -moz-transition: .9s;
+    -webkit-transition: .9s;
+    -o-transition: .9s;
+    -ms-transition: .9s;
+    transition: .9s;
+}
+.top-content .top-right a i:hover{
+    color: #FF5722;
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+/* Header bottm */
+.manu-section {
+    background: #231F14;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.header-fixed .manu-section {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+    background: #E6E4E4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 1px 2px 1px #FF5722;
+    animation-name: headerAnimate;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes headerAnimate{
+    0%{
+        opacity: 0;
+        -moz-transform: translateY(-40);
+        -webkit-transform: translateY(-40);
+        -o-transform: translateY(-40);
+        -ms-transform: translateY(-40);
+        transform: translateY(-40);
+
+    }
+    100%{
+        opacity: 1;
+        -moz-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -o-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+.manu-section .navbar {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+.manu-section .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.manu-section .navbar-collapse {
+    padding-right: 0px;
+}
+.manu-section .navbar-brand {
+    color: #DDDDDD;
+    padding: 15px 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    transition: .3s;
+}
+.header-fixed .manu-section .navbar-brand{
+    color: #000;
+}
+.manu-section .navbar-brand:hover{
+    color: #FF5722;
+}
+.manu-section .navbar-default .navbar-nav>li>a {
+    position: relative;
+    color: #DDDDDD;
+    font-weight: 700;
+    text-transform: uppercase;
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.manu-section .navbar-default .navbar-nav>li.active>a,
+.header-fixed .manu-section .navbar-default .navbar-nav>li.active>a{
+    color: #FF5722;
+    background: transparent;
+}
+.header-fixed .manu-section .navbar-default .navbar-nav>li>a:hover,
+.manu-section .navbar-default .navbar-nav>li>a:hover{
+    color: #FF5722;
+}
+.manu-section .navbar-default .navbar-nav>li>a.live-class{
+    color: #FF5722;
+}
+.manu-section .navbar-default .navbar-nav>li>a:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    height: 2px;
+    background: #FF5722;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    transition: .5s;
+}
+.manu-section .navbar-default .navbar-nav>li>a:hover:after{
+    right: 0;
+}
+.header-fixed .manu-section .navbar-default .navbar-nav>li>a{
+    color: #000;
+}
+.header-fixed .manu-section .navbar-default .navbar-nav>li>a.live-class{
+    color: #FF5722;
+}
+
+/* ====================================================
+BANNER SECTION CSS
+==================================================== 
+*/
+.banner-section{
+    background: #231F14;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+}
+.banner-content h2{
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+.banner-content h2 span{
+    color: #FF5722;
+}
+.banner-content h3{
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.banner-content .animated .ah-headline span{
+    font-size: 30px;
+    text-align: right;
+    padding-right: 10px;
+}
+.banner-content .animated .ah-headline span b i{
+    padding-right: 10px;
+    color: #FF5722;
+}
+.banner-content ul{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.banner-content ul li a{
+    display: block;
+    height: 50px;
+    width: 50px;
+    padding-top: 12px;
+    color: #fff;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+}
+.banner-content ul li a i{
+    -moz-transition: .8s;
+    -webkit-transition: .8s;
+    -o-transition: .8s;
+    -ms-transition: .8s;
+    transition: .8s;
+}
+.banner-content ul li a:hover,
+.banner-content ul li a:hover i{
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    background: #FF5722;
+}
+.banner-content .banner-down-sign img{
+    width: 100px;
+    height: 100px;
+}
+
+/* ====================================================
+ABOUT SECTION CSS
+==================================================== 
+*/
+.about-section{
+    padding-top: 30px;
+}
+.about-content{
+    background: #ddd;
+    box-shadow: 0px 8px 83px 5px #000;
+    border: 1px solid #000;
+    padding: 51px 57px;
+    margin-bottom: 25px;
+}
+.about-content .about-description h2{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.about-content .about-description p {
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.about-content .about-description p strong{
+    color: #FF5722;
+}
+.about-content .about-contact{
+    border-top: 1px solid #FF5722;
+}
+.about-content .about-contact p{
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.about-content .about-contact p i {
+    color: #FF5722;
+    font-size: 20px;
+}
+.about-content .about-contact p span{
+    margin-left: 10px;
+}
+.about-content .about-img img{
+    background: #fff;
+    padding: 5px;
+    border: 2px solid #FF5722;
+    width: 100%;
+    min-height: 285px;
+}
+/* cv button */
+.about-content .my-cv {
+    margin-top: 50px;
+    margin-left: 18px;
+}
+.about-content .my-cv a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    background: linear-gradient(94deg, rgba(215,93,24,0.03125) 0%, rgba(179,199,58,1) 0%, rgba(45,189,218,1) 100%);
+    border: 1px solid #FF5722;
+    position: relative;
+    overflow: hidden;
+}
+.about-content .my-cv a:before{
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    -moz-transform:translate(-50%,-50%) rotate(45deg);
+    -webkit-transform:translate(-50%,-50%) rotate(45deg);
+    -o-transform:translate(-50%,-50%) rotate(45deg);
+    -ms-transform:translate(-50%,-50%) rotate(45deg);
+    transform:translate(-50%,-50%) rotate(45deg);
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+    background:rgba(255, 87, 34, 0.3); 
+}
+.about-content .my-cv a:hover:before{
+    height: 360%;
+}
+/* ====================================================
+SKILL SECTION CSS
+==================================================== 
+*/
+.skill-section{
+    color: #000;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+#particles-js{
+    width: 100%;
+    height: 640px;
+    background:#fff;
+}
+.particle-pos-rel{
+    position: relative;
+}
+.particle-pos-abs{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.skill-content ul li{
+    display: block;
+}
+.skill-content ul li{
+    margin-top: 35px;
+}
+.skill-content ul li:first-child{
+    margin-top: 0;
+}
+.skill-content ul li h2{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.skill-content ul li .bar {
+    display: block;
+    width: 100%;
+    height: 7px;
+    background: #ddd;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.skill-content ul li .bar .html,
+.skill-content ul li .bar .css,
+.skill-content ul li .bar .bootstrap,
+.skill-content ul li .bar .jquery,
+.skill-content ul li .bar .Wordpress,
+.skill-content ul li .bar .laravel,
+.skill-content ul li .bar .php,
+.skill-content ul li .bar .mysql,
+.skill-content ul li .bar .java,
+.skill-content ul li .bar .javascript,
+.skill-content ul li .bar .photoshop,
+.skill-content ul li .bar .illustrator{
+    display: block;
+    width: 0;
+    height: 7px;
+    background: #F25421;
+}
+
+/* ====================================================
+SERVICES SECTION CSS
+==================================================== 
+*/
+.services-section{
+    text-align: center;
+    color: #fff;
+    /* background: linear-gradient(#00000060, #00000060), linear-gradient(#00000060,#00000060),url('../images/particlebg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    background: #231F14;
+}
+.services-title .heading-style h2 .circle1,
+.services-title .heading-style h2 .circle2,
+.services-title .heading-style h2 .circle3{
+    background: #fff;
+}
+.services-title .heading-style  h2::after,
+.services-title .heading-style  h2::before{
+    background: #fff;
+}
+.services-box {
+    background: rgba(0, 0, 0, .3);
+    padding: 65px 10px 65px 10px;
+    cursor: pointer;
+    border: 2px solid #F25421;
+    border-radius: 100px 0px 100px 0px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    position: relative;
+}
+.services-box h2 {
+    font-size: 25px;
+    border-bottom: 2px solid #444;
+    font-weight: 700;
+    padding-bottom: 7px;
+}
+.services-box p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.services-box .services-icon{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background:#18160E;
+    border: 3px solid #F25421;
+    color: #fff;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+    -moz-transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    transition: 0.3s linear;
+    position: absolute;
+    top: -52px;
+    left: 50%;
+}
+.services-box .services-icon i{
+    display: inline-block;
+    line-height: 70px;
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    font-size: 35px;
+}
+.services-box:hover .services-icon{
+    background: #F25421;
+    color: #fff;
+    -moz-transform: rotate(405deg);
+    -webkit-transform: rotate(405deg);
+    -o-transform: rotate(405deg);
+    -ms-transform: rotate(405deg);
+    transform: rotate(405deg);
+    border: 3px solid #fff;
+}
+
+/* ====================================================
+SERVICES SECTION CSS
+==================================================== 
+*/
+.counter-section{
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.counter-section .counter-desc h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.counter-section .counter-desc p{
+    font-size: 25px;
+}
+.counter-up-content {
+    padding: 15px;
+    background: #231F14;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.counter-up-content .counter-icon i {
+    color: #F25421;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.counter-up-content span {
+    font-size: 50px;
+    font-weight: 700;
+}
+.counter-up-content h2 {
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+/* ====================================================
+PORTFOLIO SECTION CSS
+==================================================== 
+*/
+.portfoli-section{
+    color: #fff;
+}
+.portfoli-section .work-nav ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.portfoli-section .work-nav ul li{
+    padding: 10px 20px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #F25421;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.portfoli-section .work-nav ul li.active{
+    border-bottom: 2px solid #000;
+}
+.portfolio-item {
+    position: relative;
+    box-shadow: 1px 2px 8px 0px #000;
+    margin-bottom: 20px;
+}
+.portfolio-item img{
+    max-width: 100%;
+}
+.portfolio-item .portfolio-effect{
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    /* border-radius: 65px 0px 65px 0px; */
+    background: rgba(0, 0, 0, .7);
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+    -moz-transform: scale(0);
+    -webkit-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+.portfolio-item:hover .portfolio-effect{
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.portfolio-item .portfolio-effect a{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    color: red;
+}
+.portfolio-item .portfolio-effect a i{
+    font-size: 50px;
+}
+
+/* ====================================================
+TESTMONIAL SECTION CSS
+==================================================== 
+*/
+.testmonials-section{
+    text-align: center;
+    padding: 20px 0 80px 0;
+    background: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.testmonials-section::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .4);
+}
+.testmonials-title .heading-style h2 .circle1,
+.testmonials-title .heading-style h2 .circle2,
+.testmonials-title .heading-style h2 .circle3{
+    background: #fff;
+}
+.testmonials-title .heading-style  h2::after,
+.testmonials-title .heading-style  h2::before{
+    background: #fff;
+}
+.carousel-slide .carousel-item .single-testmonial{
+    color: #fff;
+    position: relative;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 700;
+
+}
+.carousel-slide .carousel-item .single-testmonial .img-area{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.carousel-slide .carousel-item .single-testmonial .img-area img{
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 5px;
+}
+.carousel-slide .carousel-item .single-testmonial .text-area{
+    padding: 40px 20px 40px 20px;
+}
+.carousel-slide .carousel-item .single-testmonial .text-area h3{
+    margin-top: 120px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ddd;
+}
+.carousel-slide .carousel-item .single-testmonial .text-area h3 span{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.carousel-slide .carousel-item .single-testmonial .text-area p{
+    font-style: italic;
+}
+
+/* ====================================================
+CONTACT SECTION CSS
+==================================================== 
+*/
+.contact-section{
+    background: #ddd;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.contact-form h2 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.contact-form h3{
+    font-weight: 700;
+}
+.form-control {
+    box-shadow: none;
+    border-radius: 0px;
+    height: 50px;
+    border: 0px;
+    padding-bottom: 15px;
+    background: #ddd;
+    border-bottom: 2px solid #999;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #000;
+}
+.form-control:focus{
+    box-shadow: none;
+    outline: 0;
+    border-bottom: 2px solid #999;
+}
+textarea{
+    resize: none;
+}
+input[type=submit]{
+    width: 100%;
+    border: 0px;
+    background: #F25421;
+    color: #fff;
+    font-weight: 700;
+    height: 60px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+input[type=submit]:hover{
+    background: #F2543E;
+}
+input[type=submit]:focus{
+    outline: 0;
+    border-radius: 0px;
+}
+.form-control::-webkit-input-placeholder{
+    color: #F25421;
+}
+.form-control::-moz-placeholder{
+    color: #F25421;
+}
+.form-control:-moz-placeholder{
+    color: #F25421;
+}
+.form-control:-ms-placeholder{
+    color: #F25421;
+}
+
+/* ====================================================
+FOOTER SECTION CSS
+==================================================== 
+*/
+.footer-section{
+    background:#231F14;
+    color: #fff;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.footer-content h2{
+    font-size: 14px;
+    color: #ddd;
+}
+.footer-content h2 span{
+    color: #F25421;
+}
+/* ====================================================
+Go to Top SECTION CSS
+==================================================== 
+*/
+.totop i{
+    height: 35px;
+    width: 35px;
+    background: #F25421;
+    font-size: 35px;
+    color: #231F14;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+.totop i:hover{
+    color:#fff;
+}
