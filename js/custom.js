@@ -51,11 +51,9 @@ $(document).ready(function(){
     });
     //My Custom Code
     //=====================================
+
     //Header Section Fixed
 
-    $('input[type="submit"]').click(function(e){
-        e.preventDefault();
-    });
     $(window).scroll(function(){
         var windowSize = $(this).scrollTop();
         if(windowSize > 41){
@@ -65,124 +63,165 @@ $(document).ready(function(){
         }
         //Skill Progessbar Efficts
         if(windowSize>900){
-            $('.skill-content ul li .bar .html').css({
-                'width':'95%',
-                'transition':'2s'
-            });
-        }else{
-            $('.skill-content ul li .bar .html').css({
-                'width':'0'
-            });
-        }
-        if(windowSize>962){
-            $('.skill-content ul li .bar .css').css({
+            $('.skill-content ul li .bar .php').css({
                 'width':'90%',
                 'transition':'2s'
             });
         }else{
-            $('.skill-content ul li .bar .css').css({
-                'width':'0'
-            });
-        }
-        if(windowSize>1024){
-            $('.skill-content ul li .bar .bootstrap').css({
-                'width':'95%',
-                'transition':'2s'
-            });
-        }else{
-            $('.skill-content ul li .bar .bootstrap').css({
-                'width':'0'
-            });
-        }
-        if(windowSize>1086){
-            $('.skill-content ul li .bar .jquery').css({
-                'width':'95%',
-                'transition':'2s'
-            });
-        }else{
-            $('.skill-content ul li .bar .jquery').css({
-                'width':'0'
-            });
-        }
-        if(windowSize>1148){
-            $('.skill-content ul li .bar .Wordpress').css({
-                'width':'95%',
-                'transition':'2s'
-            });
-        }else{
-            $('.skill-content ul li .bar .Wordpress').css({
-                'width':'0'
-            });
-        }
-        if(windowSize>1210){
-            $('.skill-content ul li .bar .laravel').css({
-                'width':'95%',
-                'transition':'2s'
-            });
-        }else{
-            $('.skill-content ul li .bar .laravel').css({
-                'width':'0'
-            });
-        }
-        if(windowSize>900){
-            $('.skill-content ul li .bar .php').css({
-                'width':'85%',
-                'transition':'2s'
-            });
-        }else{
             $('.skill-content ul li .bar .php').css({
                 'width':'0'
             });
         }
         if(windowSize>962){
-            $('.skill-content ul li .bar .mysql').css({
-                'width':'85%',
+            $('.skill-content ul li .bar .laravel').css({
+                'width':'93%',
                 'transition':'2s'
             });
         }else{
-            $('.skill-content ul li .bar .mysql').css({
-                'width':'0'
-            });
-        }
-        if(windowSize>1024){
-            $('.skill-content ul li .bar .java').css({
-                'width':'70%',
-                'transition':'2s'
-            });
-        }else{
-            $('.skill-content ul li .bar .java').css({
+            $('.skill-content ul li .bar .laravel').css({
                 'width':'0'
             });
         }
         if(windowSize>1086){
-            $('.skill-content ul li .bar .javascript').css({
+            $('.skill-content ul li .bar .api').css({
+                'width':'95%',
+                'transition':'2s'
+            });
+        }else{
+            $('.skill-content ul li .bar .api').css({
+                'width':'0'
+            });
+        }
+        if(windowSize>1024){
+            $('.skill-content ul li .bar .livewire').css({
+                'width':'95%',
+                'transition':'2s'
+            });
+        }else{
+            $('.skill-content ul li .bar .livewire').css({
+                'width':'0'
+            });
+        }
+        if(windowSize>1024){
+            $('.skill-content ul li .bar .vue').css({
                 'width':'85%',
                 'transition':'2s'
             });
         }else{
-            $('.skill-content ul li .bar .javascript').css({
+            $('.skill-content ul li .bar .vue').css({
                 'width':'0'
             });
         }
         if(windowSize>1148){
-            $('.skill-content ul li .bar .photoshop').css({
-                'width':'80%',
+            $('.skill-content ul li .bar .javascript').css({
+                'width':'90%',
                 'transition':'2s'
             });
         }else{
-            $('.skill-content ul li .bar .photoshop').css({
+            $('.skill-content ul li .bar .javascript').css({
                 'width':'0'
             });
         }
         if(windowSize>1210){
-            $('.skill-content ul li .bar .illustrator').css({
-                'width':'75%',
+            $('.skill-content ul li .bar .react').css({
+                'width':'90%',
                 'transition':'2s'
             });
         }else{
-            $('.skill-content ul li .bar .illustrator').css({
+            $('.skill-content ul li .bar .react').css({
+                'width':'0'
+            });
+        }
+        if(windowSize>900){
+            $('.skill-content ul li .bar .mysql').css({
+                'width':'90%',
+                'transition':'2s'
+            });
+        }else{
+            $('.skill-content ul li .bar .mysql').css({
+                'width':'0'
+            });
+        }
+        if(windowSize>962){
+            $('.skill-content ul li .bar .postgresql').css({
+                'width':'80%',
+                'transition':'2s'
+            });
+        }else{
+            $('.skill-content ul li .bar .postgresql').css({
+                'width':'0'
+            });
+        }
+        if(windowSize>1024){
+            $('.skill-content ul li .bar .node').css({
+                'width':'70%',
+                'transition':'2s'
+            });
+        }else{
+            $('.skill-content ul li .bar .node').css({
+                'width':'0'
+            });
+        }
+        if(windowSize>1086){
+            $('.skill-content ul li .bar .mongo').css({
+                'width':'70%',
+                'transition':'2s'
+            });
+        }else{
+            $('.skill-content ul li .bar .mongo').css({
+                'width':'0'
+            });
+        }
+        if(windowSize>1148){
+            $('.skill-content ul li .bar .devops').css({
+                'width':'45%',
+                'transition':'2s'
+            });
+        }else{
+            $('.skill-content ul li .bar .devops').css({
                 'width':'0'
             });
         }
     });
+});
+
+
+$(document).ready(function(){
+
+    $("#contactForm").submit(function(e){
+        e.preventDefault();
+
+        var name = $("#name").val();
+        var phone = $("#phone").val();
+        var email = $("#email").val();
+        var message = $("#message").val();
+
+        // Validation
+        if(name == "" || phone == "" || email == "" || message == ""){
+            $("#response").html("<span style='color:red'>All fields are required</span>");
+            return false;
+        }
+
+        if(!/^\S+@\S+\.\S+$/.test(email)){
+            $("#response").html("<span style='color:red'>Invalid email address</span>");
+            return false;
+        }
+
+        $.ajax({
+            url: "insert.php",
+            type: "POST",
+            data:{
+                name:name,
+                phone:phone,
+                email:email,
+                message:message
+            },
+            success:function(data){
+                $("#response").html(data);
+                $("#contactForm")[0].reset();
+            }
+        });
+
+    });
+
 });

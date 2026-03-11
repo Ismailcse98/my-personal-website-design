@@ -472,18 +472,18 @@ SKILL SECTION CSS
     border-radius: 2px;
     overflow: hidden;
 }
-.skill-content ul li .bar .html,
-.skill-content ul li .bar .css,
-.skill-content ul li .bar .bootstrap,
-.skill-content ul li .bar .jquery,
-.skill-content ul li .bar .Wordpress,
-.skill-content ul li .bar .laravel,
 .skill-content ul li .bar .php,
-.skill-content ul li .bar .mysql,
-.skill-content ul li .bar .java,
+.skill-content ul li .bar .laravel,
+.skill-content ul li .bar .api,
+.skill-content ul li .bar .livewire,
+.skill-content ul li .bar .vue,
 .skill-content ul li .bar .javascript,
-.skill-content ul li .bar .photoshop,
-.skill-content ul li .bar .illustrator{
+.skill-content ul li .bar .react,
+.skill-content ul li .bar .mysql,
+.skill-content ul li .bar .postgresql,
+.skill-content ul li .bar .node,
+.skill-content ul li .bar .mongo,
+.skill-content ul li .bar .devops{
     display: block;
     width: 0;
     height: 7px;
