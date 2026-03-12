@@ -13,8 +13,8 @@
 
     <title>Programmer Md. ismail :: Full stack web developer</title>
 
-    <meta property="og:title" content="Engineer Ismail - Web Developer Portfolio">
-    <meta property="og:description" content="PHP Developer Portfolio with projects and experience">
+    <meta property="og:title" content="Engineer Ismail - Full Stack Web Developer Portfolio">
+    <meta property="og:description" content="PHP & Laravel Developer">
     <meta property="og:image" content="https://ismailbdcse.com/images/favicon.png">
     <meta property="og:url" content="https://ismailbdcse.com">
     <meta property="og:type" content="website">
@@ -71,7 +71,7 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Engineer Md. Ismail</a>
+                    <a class="navbar-brand" href="/">Engineer Md. Ismail</a>
                   </div>
               
                   <!-- Collect the nav links, forms, and other content for toggling -->
@@ -84,7 +84,7 @@
                         <li><a href="#services">Services</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="javascript:void(0)">Blog</a></li>
                         </ul>
                     </div>
                   </div><!-- /.navbar-collapse -->
@@ -159,7 +159,7 @@
                         </div><!-- /.row -->
                     </div><!-- /.about-contact -->
                     <div class="my-cv wow slideInLeft">
-                        <a href="md-ismail-01890893098.pdf" target="_blank">Download Resum <i class="fa fa-download" aria-hidden="true"></i> </a>
+                        <a href="md-ismail-01890893098.pdf" target="_blank">Download Resume <i class="fa fa-download" aria-hidden="true"></i> </a>
                     </div><!-- /.my-cv -->
                 </div><!-- /.col-md-7 -->
                 <div class="col-md-5">
@@ -389,99 +389,158 @@
                 <ul class="simplefilter">
                     <li class="fltr-controls active" data-filter="all">All</li>
                     <li class="fltr-controls" data-filter="design">Web Design</li>
-                    <li class="fltr-controls" data-filter="appointment">Appointment</li>
-                    <li class="fltr-controls" data-filter="inventory">Inventory</li>
-                    <li class="fltr-controls" data-filter="pos">POS</li>
-                    <li class="fltr-controls" data-filter="ecommerce">E-commerce</li>
+                    <li class="fltr-controls" data-filter="php">PHP</li>
+                    <li class="fltr-controls" data-filter="laravel">Laravel</li>
+                    <li class="fltr-controls" data-filter="laravelReact">Laravel + React JS</li>
+                    <li class="fltr-controls" data-filter="others">Others</li>
                     
                 </ul>
             </div><!-- /.work-nav -->
             <div class="row filter-container">
 
-                <div class="col-md-4 col-sm-6 filtr-item" data-category="appointment">
+            <!-- Start laravel & React section  -->
+                <div class="col-md-4 col-sm-6 filtr-item" data-category="laravelReact">
                     <div class="portfolio-item">
-                        <img src="images/portfolio/development1.png" alt="design1">
+                        <img src="images/portfolio/react-laravel-pos.png" alt="react-laravel-pos">
                         <div class="portfolio-effect">
-                            <a href="https://ismail-cse.github.io/assignment-2/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
                         </div><!-- /.portfolio-effect -->
                     </div><!-- /.portfolio-item" -->
                 </div><!-- /.col-md-4 -->
-
-                <div class="col-md-4 col-sm-6 filtr-item" data-category="inventory">
+                <div class="col-md-4 col-sm-6 filtr-item" data-category="laravelReact">
                     <div class="portfolio-item">
-                        <img src="images/portfolio/ecommerce1.png" alt="design1">
+                        <img src="images/portfolio/jrcorporationbd.png" alt="jrcorporationbd">
+                        <div class="portfolio-effect">
+                            <a href="https://jrcorporationbd.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div><!-- /.portfolio-effect -->
+                    </div><!-- /.portfolio-item" -->
+                </div><!-- /.col-md-4 -->
+            <!-- End laravel & React section  -->
+
+            <!-- Start laravel section  -->
+                <div class="col-md-4 col-sm-6 filtr-item" data-category="laravel">
+                    <div class="portfolio-item">
+                        <img src="images/portfolio/laravel-inventory.png" alt="laravel-inventory">
+                        <div class="portfolio-effect">
+                            <a href="#" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div><!-- /.portfolio-effect -->
+                    </div><!-- /.portfolio-item" -->
+                </div><!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 filtr-item" data-category="laravel">
+                    <div class="portfolio-item">
+                        <img src="images/portfolio/laravel-pos.png" alt="laravel-pos">
+                        <div class="portfolio-effect">
+                            <a href="#" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div><!-- /.portfolio-effect -->
+                    </div><!-- /.portfolio-item" -->
+                </div><!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 filtr-item" data-category="laravel">
+                    <div class="portfolio-item">
+                        <img src="images/portfolio/lead-academy.png" alt="lead-academy">
+                        <div class="portfolio-effect">
+                            <a href="https://lead.academy/courses" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div><!-- /.portfolio-effect -->
+                    </div><!-- /.portfolio-item" -->
+                </div><!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 filtr-item" data-category="laravel">
+                    <div class="portfolio-item">
+                        <img src="images/portfolio/tazimperfume.png" alt="tazimperfume">
+                        <div class="portfolio-effect">
+                            <a href="https://tazimperfume.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div><!-- /.portfolio-effect -->
+                    </div><!-- /.portfolio-item" -->
+                </div><!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 filtr-item" data-category="laravel">
+                    <div class="portfolio-item">
+                        <img src="images/portfolio/alkarimhousingltd.png" alt="alkarimhousingltd">
+                        <div class="portfolio-effect">
+                            <a href="https://alkarimhousingltd.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div><!-- /.portfolio-effect -->
+                    </div><!-- /.portfolio-item" -->
+                </div><!-- /.col-md-4 -->
+            <!-- End laravel section  -->
+
+            <!-- Start PHP section  -->
+                <div class="col-md-4 col-sm-6 filtr-item" data-category="php">
+                    <div class="portfolio-item">
+                        <img src="images/portfolio/doctor.png" alt="doctor">
+                        <div class="portfolio-effect">
+                            <a href="#" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div><!-- /.portfolio-effect -->
+                    </div><!-- /.portfolio-item" -->
+                </div><!-- /.col-md-4 -->
+            <!-- End PHP section  -->
+
+            <!-- Start design section  -->
+                <div class="col-md-4 col-sm-6 filtr-item" data-category="design">
+                    <div class="portfolio-item">
+                        <img src="images/portfolio/dream-house-design.png" alt="dream-house-design">
+                        <div class="portfolio-effect">
+                            <a href="https://ismailcse98.github.io/dream-house-design/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div><!-- /.portfolio-effect -->
+                    </div><!-- /.portfolio-item" -->
+                </div><!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 filtr-item" data-category="design">
+                    <div class="portfolio-item">
+                        <img src="images/portfolio/creative-site-design.png" alt="creative-site-design">
+                        <div class="portfolio-effect">
+                            <a href="https://ismailcse98.github.io/creative-site-design/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div><!-- /.portfolio-effect -->
+                    </div><!-- /.portfolio-item" -->
+                </div><!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 filtr-item" data-category="design">
+                    <div class="portfolio-item">
+                        <img src="images/portfolio/design-for-ir-it.png" alt="design-for-ir-it">
+                        <div class="portfolio-effect">
+                            <a href="https://ismailcse98.github.io/design-for-ir-it/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div><!-- /.portfolio-effect -->
+                    </div><!-- /.portfolio-item" -->
+                </div><!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 filtr-item" data-category="design">
+                    <div class="portfolio-item">
+                        <img src="images/portfolio/hanasaki-je.png" alt="hanasaki-je">
+                        <div class="portfolio-effect">
+                            <a href="https://hanasaki-je.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div><!-- /.portfolio-effect -->
+                    </div><!-- /.portfolio-item" -->
+                </div><!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 filtr-item" data-category="design">
+                    <div class="portfolio-item">
+                        <img src="images/portfolio/duhoot-site-design.png" alt="duhoot-site-design">
+                        <div class="portfolio-effect">
+                            <a href="https://ismailcse98.github.io/duhoot-site-design/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div><!-- /.portfolio-effect -->
+                    </div><!-- /.portfolio-item" -->
+                </div><!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 filtr-item" data-category="design">
+                    <div class="portfolio-item">
+                        <img src="images/portfolio/search-image.png" alt="duhoot-site-design">
                         <div class="portfolio-effect">
                             <a href="https://ismail-cse.github.io/assignment-6/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
                         </div><!-- /.portfolio-effect -->
                     </div><!-- /.portfolio-item" -->
                 </div><!-- /.col-md-4 -->
-
-                <div class="col-md-4 col-sm-6 filtr-item" data-category="pos">
-                    <div class="portfolio-item">
-                        <img src="images/portfolio/ecommerce2.png" alt="design1">
-                        <div class="portfolio-effect">
-                            <a href="https://bd-nignt-riders.web.app/home" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-effect -->
-                    </div><!-- /.portfolio-item" -->
-                </div><!-- /.col-md-4 -->
-
-                <div class="col-md-4 col-sm-6 filtr-item" data-category="ecommerce">
-                    <div class="portfolio-item">
-                        <img src="images/portfolio/ecommerce3.png" alt="design1">
-                        <div class="portfolio-effect">
-                            <a href="https://unruffled-shannon-910786.netlify.app/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-effect -->
-                    </div><!-- /.portfolio-item" -->
-                </div><!-- /.col-md-4 -->
-
                 <div class="col-md-4 col-sm-6 filtr-item" data-category="design">
                     <div class="portfolio-item">
-                        <img src="images/portfolio/design1.png" alt="design1">
+                        <img src="images/portfolio/beatch-website.png" alt="beatch-websit">
                         <div class="portfolio-effect">
-                            <a href="https://ismail-cse.github.io/my-personal-website-demo1/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                            <a href="https://ismail-cse.github.io/beatch-website-mostakim/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
                         </div><!-- /.portfolio-effect -->
                     </div><!-- /.portfolio-item" -->
                 </div><!-- /.col-md-4 -->
                 <div class="col-md-4 col-sm-6 filtr-item" data-category="design">
                     <div class="portfolio-item">
-                        <img src="images/portfolio/design2.png" alt="design1">
-                        <div class="portfolio-effect">
-                            <a href="https://ismail-cse.github.io/assignment-1/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-effect -->
-                    </div><!-- /.portfolio-item" -->
-                </div><!-- /.col-md-4 -->
-                <div class="col-md-4 col-sm-6 filtr-item" data-category="design">
-                    <div class="portfolio-item">
-                        <img src="images/portfolio/design3.png" alt="design1">
-                        <div class="portfolio-effect">
-                            <a href="https://ismail-cse.github.io/web-porfolio-sir/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-effect -->
-                    </div><!-- /.portfolio-item" -->
-                </div><!-- /.col-md-4 -->
-                <div class="col-md-4 col-sm-6 filtr-item" data-category="design">
-                    <div class="portfolio-item">
-                        <img src="images/portfolio/design4.png" alt="design1">
-                        <div class="portfolio-effect">
-                            <a href="https://ismail-cse.github.io/dhoot-design-mostakim/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-effect -->
-                    </div><!-- /.portfolio-item" -->
-                </div><!-- /.col-md-4 -->
-                <div class="col-md-4 col-sm-6 filtr-item" data-category="design">
-                    <div class="portfolio-item">
-                        <img src="images/portfolio/design5.png" alt="design1">
-                        <div class="portfolio-effect">
-                            <a href="https://ismail-cse.github.io/beatch-website-mostakim/index.html" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-effect -->
-                    </div><!-- /.portfolio-item" -->
-                </div><!-- /.col-md-4 -->
-                <div class="col-md-4 col-sm-6 filtr-item" data-category="design">
-                    <div class="portfolio-item">
-                        <img src="images/portfolio/design6.png" alt="design1">
+                        <img src="images/portfolio/blog-design.png" alt="blog-design">
                         <div class="portfolio-effect">
                             <a href="https://ismail-cse.github.io/blog-design-mostakim/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
                         </div><!-- /.portfolio-effect -->
                     </div><!-- /.portfolio-item" -->
                 </div><!-- /.col-md-4 -->
+            <!-- End design section  -->
+
+            <!-- Start Others Project section  -->
+            <!-- End Others Project section  -->
+
 
             </div><!-- /.row -->
         </div><!-- /.container -->
@@ -592,97 +651,6 @@
         </div><!-- /.contaier -->
     </div><!-- /.contact-section -->
     <!-- Contact Section End -->
-    <!-- Blog Section Start -->
-    <div class="contact-section" id="blog">
-        <div class="container">
-            <div class="contact-title">
-                <div class="heading-style">
-                    <h2>My Article
-                        <div class="circle1"></div><!-- /.circle -->
-                        <div class="circle2"></div><!-- /.circle -->
-                        <div class="circle3"></div><!-- /.circle -->
-                    </h2>
-                </div><!-- /.heading-style -->
-            </div><!-- /.contact-title -->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true" style="text-align: start;">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="heading1">
-                            <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                My Journey as a Full Stack Web Developer
-                                </a>
-                            </h4>
-                            </div>
-                            <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
-                            <div class="panel-body">
-                                <p>
-                                    I am a passionate Full Stack Web Developer with strong experience in PHP, Laravel, and JavaScript. I enjoy building modern web applications that are fast, secure, and user-friendly. Over the years, I have worked on various projects including eCommerce websites, inventory management systems, school management platforms, and RESTful APIs.
-                                </p><br>
-
-                                <p>
-                                    My main focus is creating scalable backend systems using Laravel and designing efficient databases with MySQL and PostgreSQL. I also work with frontend technologies to ensure a smooth and responsive user experience.
-                                </p><br>
-
-                                <p>
-                                    I always try to follow clean coding practices and modern development standards. Learning new technologies and solving real-world problems through code is something that motivates me every day.
-                                </p><br>
-
-                                <p>
-                                    My goal is to build high-quality digital solutions that help businesses grow and operate more efficiently.
-                                </p><br>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="heading2">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                 IPN vs Webhook
-                                </a>
-                            </h4>
-                            </div>
-                            <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-                                <div class="panel-body">
-                                    When integrating a payment gateway into an application, it’s important to handle payment confirmations correctly. Two common mechanisms used by gateways are IPN (Instant Payment Notification) and Webhooks.
-                                    <br>
-                                    🔹 IPN: The payment gateway sends a server-to-server HTTP request to your application when a transaction status changes.
-                                    <br>
-                                    Benefits
-                                    • Simple to implement
-                                    • Reliable server-to-server communication
-                                    • Works even if the user closes the browser
-                                    <br>
-                                    Limitations
-                                    • Usually supports limited event types
-                                    • Retry handling and validation can be tricky
-                                    • Older approach used by legacy systems
-                                    <br>
-                                    🔹 Webhook: A modern event-driven approach where the gateway notifies your server instantly whenever a specific event occurs (like payment success or refund).
-                                    <br>
-                                    Benefits
-                                    • Real-time event notifications
-                                    • Supports multiple event types (payment success, refund, dispute, etc.)
-                                    • More flexible and widely used in modern APIs
-                                    <br>
-                                    Limitations
-                                    • Requires proper security verification (signatures)
-                                    • Needs retry handling and idempotency logic
-                                    • Slightly more complex to implement correctly
-
-                                    <br>
-                                    Both help your system update order status automatically—even if the user closes the browser.
-                                    As backend developers, verifying the request, validating the transaction, and handling security checks are essential when implementing these features.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- /.col-md-6 -->
-            </div><!-- /.row -->
-        </div><!-- /.contaier -->
-    </div><!-- /.contact-section -->
-    <!-- Blog Section End -->
 
 
     <!-- Footer Section Start -->
